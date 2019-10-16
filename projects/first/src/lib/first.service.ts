@@ -5,5 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class FirstService {
 
-  constructor() { }
+  constructor() {
+    console.log('just added');
+  }
 }
